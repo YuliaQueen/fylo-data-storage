@@ -13,6 +13,8 @@ body {
 }
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: darkgrey;
+  font-size: 14px;
 }
 a:hover {
   text-decoration: none;
@@ -45,6 +47,59 @@ button,
 input {
   outline: none !important;
   border: none;
+}
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1440px;
+  height: 100vh;
+  margin: auto;
+  background-color: hsl(229, 57%, 11%);
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 115%;
+  background-size: contain;
+}
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 950px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.left-block {
+  width: 350px;
+  height: 200px;
+  background-color: hsl(228, 56%, 26%);
+  padding-left: 40px;
+  padding-top: 40px;
+  margin-right: 30px;
+  border-radius: 10px 95px 10px 10px;
+}
+.right-block {
+  width: 540px;
+  height: 150px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
