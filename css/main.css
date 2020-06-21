@@ -134,6 +134,9 @@ input {
   margin-right: 30px;
   border-radius: 10px 95px 10px 10px;
 }
+.left-block .left-block__logo {
+  margin-bottom: 30px;
+}
 .left-block .left-block__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
