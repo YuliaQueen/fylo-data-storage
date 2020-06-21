@@ -95,11 +95,120 @@ input {
   margin-right: 30px;
   border-radius: 10px 95px 10px 10px;
 }
+.left-block .left-block__logo {
+  margin-bottom: 20px;
+}
+.left-block .left-block__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.left-block .left-block__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(229, 57%, 11%);
+  margin-right: 13px;
+  border-radius: 10px;
+}
+.left-block .left-block__button:last-child {
+  margin-right: 0;
+}
 .right-block {
+  position: relative;
   width: 540px;
   height: 150px;
+  color: white;
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+.right-block .right-block__text {
+  margin-bottom: 17px;
+}
+.right-block .right-block__text span {
+  font-weight: bold;
+}
+.right-block .right-block__flag {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 40px;
+  top: -49px;
+  width: 180px;
+  height: 73px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.right-block .right-block__flag span {
+  font-size: 40px;
+  margin-right: 5px;
+}
+.right-block .right-block__flag::after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  right: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.right-block .progress-bar {
+  position: relative;
+  height: 18px;
+  border: 3px solid hsl(229, 57%, 11%);
+  border-radius: 10px;
+  background-color: white;
+}
+.right-block .progress-bar .fill {
+  width: 75%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(hsl(6, 100%, 80%)), to(hsl(335, 100%, 65%)));
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.right-block .progress-bar .circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 8%;
+  right: 112px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: white;
+}
+.right-block .progress-bar .right-block__values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
