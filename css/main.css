@@ -63,18 +63,18 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1440px;
+  max-width: 1440px;
   height: 100vh;
   margin: auto;
   background-color: hsl(229, 57%, 11%);
   background-image: url("../images/bg-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 100% 120%;
-  background-size: contain;
+  background-size: 100% 50%;
+  background-position: bottom;
   -webkit-box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.5);
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .container {
     width: 100%;
     background-position: center;
@@ -104,10 +104,8 @@ input {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  width: 950px;
-  margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .content-wrapper {
     max-width: 100%;
     -ms-flex-wrap: wrap;
@@ -161,11 +159,11 @@ input {
 .left-block .left-block__button:last-child {
   margin-right: 0;
 }
-@media (max-width: 780px) {
+@media (max-width: 992px) {
   .left-block {
     margin-bottom: 18px;
     margin-right: 0;
-    width: 86%;
+    width: 100%;
   }
 }
 .right-block {
@@ -222,12 +220,12 @@ input {
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .right-block .right-block__flag::after {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .right-block .right-block__flag {
     top: 50%;
     left: 50%;
@@ -271,10 +269,10 @@ input {
   font-size: 12px;
   font-weight: bold;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .right-block {
     margin-bottom: 50px;
-    width: 86%;
+    width: 100%;
     padding: 32px;
   }
 }
